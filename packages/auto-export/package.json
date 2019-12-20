@@ -1,0 +1,35 @@
+{
+  "name": "@webpack-plugins/auto-export",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yen ",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "webpack --mode=development --progress --color --watch",
+    "build": "rm -rf dist && webpack --mode=production --config webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.7.7",
+    "@babel/parser": "^7.7.7",
+    "@babel/traverse": "^7.7.4",
+    "@babel/types": "^7.7.4",
+    "chalk": "^3.0.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "lodash": "^4.17.15"
+  }
+}

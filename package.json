@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/generator": "^7.7.7",
+    "@babel/parser": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/traverse": "^7.7.4",
+    "@babel/types": "^7.7.4",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "chalk": "^3.0.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^1.2.0",
+    "lerna": "^3.19.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.7"
+  }
+}
